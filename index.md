@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+# Feature Flag Solutions
 
-You can use the [editor on GitHub](https://github.com/wulfland/FeatureFlags/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## What are Feature Flags?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+`Feature Flags` are a technique in software development that allows to modify runtime behavior without changing code. It decouples the releasing of functionality to the end users from the roll-out of the binaries.
+`Feature Flags` work like a switch or toggle and are therefore often called `Feature Toggles` or `Feature Switches` because of there Boolean nature. But `Feature Flags` can have many different use cases and can be more complex than a toggle. That’s why the tern Feature Flag is more suitable.
 
-### Markdown
+## Feature Flag Solutions
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+There are many solutions out there. I'm first focusing on all the available products. This is the criteria I will look for:
 
-```markdown
-Syntax highlighted code block
+- Pricing
+- License
+- Available SDKs
+- Hosting Options
+- Compliance
 
-# Header 1
-## Header 2
-### Header 3
+## [LaunchDarkley](https://launchdarkly.com) 
 
-- Bulleted
-- List
+### [Pricing](https://launchdarkly.com/pricing/) 
 
-1. Numbered
-2. List
+Seats per month:
+- Starter $10, 
+- Pro $20, 
+- Enterprise (ask for quote)
 
-**Bold** and _Italic_ and `Code` text
+### Available SDKs (26):
+- Android
+- Apex
+- C/C++ (client and server)
+- C#
+- Electron
+- Erlang
+- Flutter
+- Gatsby
+- Go
+- Haskell
+- iOS
+- Java
+- JavaScript
+- Lua
+- .NET
+- Node.JS (client and server)
+- PHP
+- Python
+- React
+- React Native
+- Roku
+- Ruby
+- Swift
+- Xamarin
 
-[Link](url) and ![Image](src)
-```
+### Hosting options
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+SaaS (and on prem for enterprises) 
 
-### Jekyll Themes
+### Compliance
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wulfland/FeatureFlags/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- SOC 2 Type II
+- ISO 27001
+- GDPR
+- EU/US Privacy Shield
