@@ -5,9 +5,9 @@
 `Feature Flags` are a technique in software development that allows to modify runtime behavior without changing code. It decouples the releasing of functionality to the end users from the roll-out of the binaries.
 `Feature Flags` work like a switch or toggle and are therefore often called `Feature Toggles` or `Feature Switches` because of there Boolean nature. But `Feature Flags` can have many different use cases and can be more complex than a toggle. That’s why the tern Feature Flag is more suitable.
 
-## Feature Flag Solutions
+## Available Feature Flag Solutions
 
-There are many solutions out there. I'm first focusing on all the available products. This is the criteria I will look for:
+There are many solutions out there. I'm first focusing on all the available `products` - and not on individual frammeworks. Maybe I add this later. This is the criteria I will look for:
 
 - Pricing
 - License
@@ -15,11 +15,20 @@ There are many solutions out there. I'm first focusing on all the available prod
 - Hosting Options
 - Compliance
 
+These are the solutions I found so far. Feel free to contact ne if I missed anything:
+
+1. [LaunchDarkley](#launchdarkley)
+2. [Unleash](#unleash)
+3. [Switchover](#switchover)
+4. [VWO](#vwo)
+5. [Split](#split)
+6. [Flagship](#flagship)
+
 ## LaunchDarkley
 
-[LaunchDarkley](https://launchdarkly.com) is one of the oldest players in the field of Feature Flags.
+[LaunchDarkley](https://launchdarkly.com) is one of the oldest players in the field of Feature Flags and a very mature solution with the most SDKs and certifications available.
 
-### Pricing
+### LaunchDarkley Pricing
 
 See [Pricing](https://launchdarkly.com/pricing/). LaunchDarkly is purchachsed on a monthly basis but can be payed anualy.
 
@@ -39,24 +48,25 @@ These plans are available:
 A seat is a team member that logs into the portal using a unique email address.
 The MAUs are the active unique users - so every user only counts once - even if they evaluate flags from multiple devices.
 
-### Available SDKs (26):
-| 1             | 2              | 3              | 4             |
+### LaunchDarkley Available SDKs (26)
+
+|               |                |                |               |
 |---------------|----------------|----------------|---------------|
-| Android       | Apex           | C/C++`**`      | C#            |
+| Android       | Apex           | C/C++**        | C#            |
 | Electron      | Erlang         | Flutter        | Gatsby        |
-| Go            | Haskell        |iOS             | Java          |
-| JavaScript    | Lua            | .NET           | Node.JS`**`   |
+| Go            | Haskell        | iOS            | Java          |
+| JavaScript    | Lua            | .NET           | Node.JS**     |
 | PHP           | Python         | React          | React Native  |
 | Roku          | Ruby           | Swift          | Xamarin       |
 
 `**`client and server
 
-### Hosting options
+### LaunchDarkley Hosting options
 
 LaunchDarkly is a SaaS service. But at least a few years ago it was possible to install it on-premises if
 you asked for an enterprise plan. I have to validate if this is still the case.
 
-### Compliance
+### LaunchDarkley Compliance
 
 - SOC 2 Type II
 - ISO 27001
@@ -67,7 +77,7 @@ you asked for an enterprise plan. I have to validate if this is still the case.
 
 [Unleash](https://www.getunleash.io/) is a product that has an [Open Core](https://github.com/Unleash/unleash) but is also offered as a SaaS service. Unleash is the solution that is used by GitLab.
 
-### Pricing
+### Unleash Pricing
 
 The open core can be self-hosted using **Docker**, **Node.js**, or **Helm** and is free of charge.
 
@@ -84,11 +94,11 @@ Unleash Enterprise comes with two additional [plans](https://www.getunleash.io/p
 `*`Monthly active unique client-side users
 `***`host
 
-### Hosting options
+### Unleash Hosting options
 
 Self-hosted or SaaS
 
-### Available SDKs (11)
+### Unleash Available SDKs (11)
 
 Official Server SDKs:
 
@@ -109,19 +119,131 @@ The frontend SDKs connects via the [Unleash Proxy](https://docs.getunleash.io/sd
 - [Android SDK](https://docs.getunleash.io/sdks/android_proxy_sdk)
 - [iOS SDK](https://docs.getunleash.io/sdks/proxy-ios)
 
+### Unleash Compliance
+
+Self-hosted: you have full control.
+Service: unknown
+
 ## Switchover
 
-https://switchover.io/
+[Switchover](https://switchover.io/) is a product of the German company Takso GmbH with a strong focus on compliance in the automotive industry.
+
+### Switchover Pricing
+
+|                     | Free.              | Starter            | Professional       | Enterprise         |
+| --------------------|-------------------:|-------------------:|-------------------:|-------------------:|
+| Price / month       |              0 EUR |             39 EUR |             89 EUR |            199 EUR |
+| Seats               |                  1 |                  5 |                 50 |          unlimited |
+| Requests            |              5 mio |             15 mio |             90 mio |          unlimited |
+| Projects            |                  1 |                  3 |                 10 |          unlimited |
+| SLA                 |                98% |              98.5% |              99.5% |              99.5% |
+
+### Switchover Hosting options
+
+SaaS.
+I had contact with Switchover and they said they support self hosting. But I can't find anything on the website.
+
+### Switchover Available SDKs (8)
+
+- PHP
+- Laravel
+- Node.JS
+- JavaScript
+- React
+- Vue JS
+- Angular JS
+- Nuxt JS
+
+### Switchover Compliance
+
+unknown (probably through self hosting)
 
 ## VWO
 
-https://vwo.com/
+[VWO](https://vwo.com/) is mkore than just Feature Flags - they provide analytics and testing solutions and services. Unfortunatley they don't have apricing on their website. I'll skipp them therefor for now.
 
 ## Split
 
-https://www.split.io/
+[Split](https://www.split.io/) is a company founded in 2015 and has a strong focus on mobile development. They serve over 1 trillion flags per month according to their website. Their headquarter is in California.
 
-## Flagship 
+### Split Pricing
 
-https://www.flagship.io/
+Unfortunatley, Split does not provide pricing information on [their website](https://www.split.io/pricing/). They just offer you a free 30 day trial. Pricing works on MTKs - but I don't know how much that is. Thsi is what is on their website:
 
+> We charge for our Platform Edition based on the number of Monthly Tracked Keys (MTKs) evaluated by Split. MTKs are the number of unique keys you track within Split in a calendar month. This is typically a combination of users, both logged in and anonymous. It can also be sessions, accounts, devices, or other custom identifiers that you define.
+
+|                     | Free               | Platform           | Monitor & Experiment |
+| --------------------|-------------------:|-------------------:|---------------------:|
+| Price / month       |              0 EUR |               $ ?? |                 $ ?? |
+| Seats               |                 10 |                 25 |                   50 |
+| SLA                 |                  - |              99.9% |                99.9% |
+| MTKs                |                  ? |                  ? |                    ? |
+
+### Split Available SDKs (14)
+
+- Android
+- Go
+- iOS
+- Java
+- JavaScript
+- .NET
+- Node.JS
+- PHP
+- Python
+- React
+- React Native
+- Redux
+- Ruby
+- Ruby on Rails
+
+### Split Hosting Options
+
+???
+
+### Split Compliance
+
+???
+
+## Flagship
+
+[Flagship](https://www.flagship.io/) is a French company with headquaters in Paris and offices around the world (New York, San Francisco, London, Singapore, Berlin, Cologne, Madrid).
+
+### Flagship Pricing
+
+[Pricing](https://www.flagship.io/pricing/)
+
+|                     | Premium            | Enterprise         |
+| --------------------|-------------------:|-------------------:|
+| Price / month       |               $175 |                  ? |
+| Seats               |          unlimited |          unlimited |
+| Environments        |                  2 |             Custom |
+| Projects / Environment |               2 |          Unlimited |
+| MAU`*`              |                15k |               300k |
+| SLA                 |                  - |             99.99% |
+
+### Flagship Available SDKs (12)
+
+- JavaScript
+- Node.JS
+- React
+- Go
+- Java
+- Python
+- PHP
+- .NET
+- Flutter
+- iOS
+- Android
+- React Native
+
+### Flagship Hosting Options
+
+???
+
+### Flagship Compliance
+
+???
+
+## Summary
+
+This analysis is still work in progress. Let me know if you miss anything. Contact me or directly create a pull request.
