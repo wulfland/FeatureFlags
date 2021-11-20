@@ -1,10 +1,16 @@
 # Feature Flag Solutions
 
-This repository trys to list available products and solutions for feature flags. The market has grown a lot the last years and I was missing a good coverview.
+Comparison between available solutions for feature flags (aka feature toggles).
 
-## The result
+I'm trying to list all available products and solutions. The market has grown a lot the last years and I was missing a good overview.
 
-Find the result in [index.md](index.md) or view it in [https://wulfland.github.io/FeatureFlags/](https://wulfland.github.io/FeatureFlags/).
+Most of the information comes from public sources - mostly the company website.
+
+All information is provided `as is` without any guarantee. The information is provided under MIT license - so feel free to share and to contribute.
+
+## The comparison
+
+Find the comparison in [index.md](index.md) or view it in [https://wulfland.github.io/FeatureFlags/](https://wulfland.github.io/FeatureFlags/).
 
 ## Contribute
 
