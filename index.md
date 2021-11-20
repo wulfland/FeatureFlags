@@ -43,13 +43,13 @@ The MAUs are the active unique users - so every user only counts once - even if 
 
 |               |                |                |               |
 |---------------|----------------|----------------|---------------|
-| Android       | Apex           | C/C++`**`      | C#            |
+| Android       | Apex           | C/C++**        | C#            |
 | Electron      | Erlang         | Flutter        | Gatsby        |
-| Go            | Haskell        |iOS             | Java          |
-| JavaScript    | Lua            | .NET           | Node.JS`**`   |
+| Go            | Haskell        | iOS            | Java          |
+| JavaScript    | Lua            | .NET           | Node.JS**     |
 | PHP           | Python         | React          | React Native  |
 | Roku          | Ruby           | Swift          | Xamarin       |
-git 
+
 `**`client and server
 
 ### Hosting options
@@ -112,17 +112,16 @@ The frontend SDKs connects via the [Unleash Proxy](https://docs.getunleash.io/sd
 
 ## Switchover
 
-https://switchover.io/
+[Switchover](https://switchover.io/)
 
 ## VWO
 
-https://vwo.com/
+[VWO](https://vwo.com/)
 
 ## Split
 
-https://www.split.io/
+[Split](https://www.split.io/)
 
 ## Flagship 
 
-https://www.flagship.io/
-
+[Flagship](https://www.flagship.io/)
