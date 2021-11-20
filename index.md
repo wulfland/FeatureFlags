@@ -40,7 +40,7 @@ A seat is a team member that logs into the portal using a unique email address.
 The MAUs are the active unique users - so every user only counts once - even if they evaluate flags from multiple devices.
 
 ### Available SDKs (26):
-|               |                |                |               |
+| <!-- -->      | <!-- -->       | <!-- -->       | <!-- -->      |
 |---------------|----------------|----------------|---------------|
 | Android       | Apex           | C/C++`**`      | C#            |
 | Electron      | Erlang         | Flutter        | Gatsby        |
