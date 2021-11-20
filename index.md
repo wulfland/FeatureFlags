@@ -26,7 +26,7 @@ These are the solutions I found so far. Feel free to contact ne if I missed anyt
 
 ## LaunchDarkley
 
-[LaunchDarkley](https://launchdarkly.com) is one of the oldest players in the field of Feature Flags.
+[LaunchDarkley](https://launchdarkly.com) is one of the oldest players in the field of Feature Flags and a very mature solution.
 
 ### Pricing
 
@@ -119,13 +119,48 @@ The frontend SDKs connects via the [Unleash Proxy](https://docs.getunleash.io/sd
 - [Android SDK](https://docs.getunleash.io/sdks/android_proxy_sdk)
 - [iOS SDK](https://docs.getunleash.io/sdks/proxy-ios)
 
+### Compliance
+
+Self-hosted: you have full control.
+Service: unknown
+
 ## Switchover
 
-[Switchover](https://switchover.io/)
+[Switchover](https://switchover.io/) is a product of the German company Takso GmbH with a strong focus on compliance in the automotive industry.
+
+### Pricing
+
+|                     | Free.              | Starter            | Professional       | Enterprise         |
+| --------------------|-------------------:|-------------------:|-------------------:|-------------------:|
+| Price / month       |              0 EUR |             39 EUR |             89 EUR |            199 EUR |
+| Seats               |                  1 |                  5 |                 50 |          unlimited |
+| Requests            |              5 mio |             15 mio |             90 mio |          unlimited |
+| Projects            |                  1 |                  3 |                 10 |          unlimited |
+| SLA                 |                98% |              98.5% |              99.5% |              99.5% |
+
+### Hosting options
+
+SaaS.
+I had contact with Switchover and they said they support self hosting. But I can't find anything on the website.
+
+### Available SDKs (11)
+
+- PHP
+- Laravel
+- Node.JS
+- JavaScript
+- React
+- Vue JS
+- Angular JS
+- Nuxt JS
+
+### Compliance
+
+unknown (probably through self hosting)
 
 ## VWO
 
-[VWO](https://vwo.com/)
+[VWO](https://vwo.com/) is mkore than just Feature Flags - they provide analytics and testing solutions and services. Unfortunatley they don't have apricing on their website. I'll skipp them therefor for now. 
 
 ## Split
 
