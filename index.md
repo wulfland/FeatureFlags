@@ -15,6 +15,15 @@ There are many solutions out there. I'm first focusing on all the available prod
 - Hosting Options
 - Compliance
 
+These are the solutions I found so far. Feel free to contact ne if I missed anything:
+
+1. [LaunchDarkley](#launchdarkley)
+2. [Unleash](#unleash)
+3. [Switchover](#switchover)
+4. [VWO](#vwo)
+5. [Split](#split)
+6. [Flagship](#flagship)
+
 ## LaunchDarkley
 
 [LaunchDarkley](https://launchdarkly.com) is one of the oldest players in the field of Feature Flags.
