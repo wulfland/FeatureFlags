@@ -164,24 +164,28 @@ unknown (probably through self hosting)
 
 ## Split
 
-[Split](https://www.split.io/) is a company founded in 2015 and has a strong focus on mobile development. They serve over 1 trillion flags per month according to their website. Their headquarter is in California.
+[Split](https://www.split.io/) is a feature feature management and experimentation platform that pairs feature flagging with data to automatically attribute system performance and user behavior to each feature. They serve over 1 trillion flags per month according to their website. Split is headquartered in Redwood City, California.
 
 ### Split Pricing
 
-Unfortunatley, Split does not provide pricing information on [their website](https://www.split.io/pricing/). They just offer you a free 30 day trial. Pricing works on MTKs - but I don't know how much that is. Thsi is what is on their website:
+Split has four pricing tiers, starting with a free-forever Developer tier. Beyond the Developer tier, pricing is based primarily on seats, with additional costs if monthly tracked keys (MTKs) exceed 50,000. One MTK = one unique user or account or device evaluated by SDK. Developer tier accounts begin with a 30-day Enterprise trial. See summary below and details on [their website](https://www.split.io/pricing/).
 
-> We charge for our Platform Edition based on the number of Monthly Tracked Keys (MTKs) evaluated by Split. MTKs are the number of unique keys you track within Split in a calendar month. This is typically a combination of users, both logged in and anonymous. It can also be sessions, accounts, devices, or other custom identifiers that you define.
+|                     | Developer          | Team               | Business             | Enterprise           |
+| --------------------|-------------------:|-------------------:|---------------------:|---------------------:|
+| Price/seat/month.   |                $ 0 |               $ 33 |                 $ 60 |               Custom |
+| Max Feature Flags   |          Unlimited |          Unlimited |            Unlimited |            Unlimited |
+| Max Workspaces      |                  1 |                  1 |            Unlimited |            Unlimited |
+| Max Environments    |                  2 |                  2 |            Unlimited |            Unlimited |
+| Treatments per flag |                  2 |                  2 |            Unlimited |            Unlimited |
+| SLA                 |                  - |              99.9% |                99.9% |                99.9% |
+| Standard MTKs       |             50,000 |             50,000 |               50,000 |               50,000 |
+| Additional MTKs     |      Not available |      Not available |               Custom |               Custom |
 
-|                     | Free               | Platform           | Monitor & Experiment |
-| --------------------|-------------------:|-------------------:|---------------------:|
-| Price / month       |              0 EUR |               $ ?? |                 $ ?? |
-| Seats               |                 10 |                 25 |                   50 |
-| SLA                 |                  - |              99.9% |                99.9% |
-| MTKs                |                  ? |                  ? |                    ? |
+### Split Available SDKs (16 + Evaluator)
 
-### Split Available SDKs (14)
-
+- Angular
 - Android
+- Flutter
 - Go
 - iOS
 - Java
@@ -195,14 +199,17 @@ Unfortunatley, Split does not provide pricing information on [their website](htt
 - Redux
 - Ruby
 - Ruby on Rails
+- Split Evaluator to support other languages via REST API
 
 ### Split Hosting Options
 
-???
+SaaS only.
+Split provides an on-premise [Split Proxy](https://help.split.io/hc/en-us/articles/4415960499213-Split-Proxy) if limiting outbound traffic to a single connection is desired
 
 ### Split Compliance
 
-???
+Split is CCPA, GDPR, ISO 20001, Privacy Shield and SOC 2 certified.
+More detail and access to pentest reports, etc is available on the [Split Security Portal](https://security.split.io/)
 
 ## Flagship
 
