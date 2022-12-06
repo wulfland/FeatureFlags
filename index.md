@@ -24,11 +24,11 @@ These are the solutions I found so far. Feel free to contact ne if I missed anyt
 5. [Split](#split)
 6. [Flagship](#flagship)
 
-## LaunchDarkley
+## LaunchDarkly
 
 [LaunchDarkly](https://launchdarkly.com) is one of the oldest players in the field of Feature Flags and a very mature solution with the most SDKs and certifications available.
 
-### LaunchDarkley Pricing
+### LaunchDarkly Pricing
 
 See [Pricing](https://launchdarkly.com/pricing/). LaunchDarkly is purchachsed on a monthly basis but can be payed anualy.
 
@@ -48,7 +48,7 @@ These plans are available:
 A seat is a team member that logs into the portal using a unique email address.
 The MAUs are the active unique users - so every user only counts once - even if they evaluate flags from multiple devices.
 
-### LaunchDarkley Available SDKs (26)
+### LaunchDarkly Available SDKs (26)
 
 |               |                |                |               |
 |---------------|----------------|----------------|---------------|
