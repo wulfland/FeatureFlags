@@ -17,7 +17,7 @@ There are many solutions out there. I'm first focusing on all the available `pro
 
 These are the solutions I found so far. Feel free to contact ne if I missed anything:
 
-1. [LaunchDarkley](#launchdarkley)
+1. [LaunchDarkly](#launchdarkly)
 2. [Unleash](#unleash)
 3. [Switchover](#switchover)
 4. [VWO](#vwo)
@@ -26,7 +26,7 @@ These are the solutions I found so far. Feel free to contact ne if I missed anyt
 
 ## LaunchDarkley
 
-[LaunchDarkley](https://launchdarkly.com) is one of the oldest players in the field of Feature Flags and a very mature solution with the most SDKs and certifications available.
+[LaunchDarkly](https://launchdarkly.com) is one of the oldest players in the field of Feature Flags and a very mature solution with the most SDKs and certifications available.
 
 ### LaunchDarkley Pricing
 
@@ -61,12 +61,12 @@ The MAUs are the active unique users - so every user only counts once - even if 
 
 `**`client and server
 
-### LaunchDarkley Hosting options
+### LaunchDarkly Hosting options
 
 LaunchDarkly is a SaaS service. But at least a few years ago it was possible to install it on-premises if
 you asked for an enterprise plan. I have to validate if this is still the case.
 
-### LaunchDarkley Compliance
+### LaunchDarkly Compliance
 
 - SOC 2 Type II
 - ISO 27001
